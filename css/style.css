@@ -1,0 +1,76 @@
+@import url(reset.css);
+
+.container {
+    width: 1200px;
+    
+}
+
+.float1 {
+    width: 400px;
+    height: 400px;
+    background: green;
+    outline: 1px solid red;
+    float: left;
+}
+
+.box2 {
+    float: left;
+}
+
+.some_block1 {
+    height: 200px;
+    width: 800px;
+    outline: 1px solid red;
+    background: orange;
+    overflow: hidden;
+}
+
+.some_block2 {
+    height: 133px;
+    width: 400px;
+    background: rgb(143, 143, 231);
+    outline: 1px solid red;
+    overflow: hidden;
+      
+}
+
+.float5 {
+    background: darkmagenta;
+    height: 400px;
+    float: left;
+    outline: 1px solid red;
+    width: 400px;
+
+}
+.float6 {
+
+    background: blue;
+    height: 200px;
+    width: 800px;
+    float: left;
+}
+
+.float7 {
+    background: pink;
+    height: 200px;
+    width: 400px;
+    float: left;
+    overflow: hidden;
+    outline: 1px solid red;
+}
+
+.float8 {
+    background: yellow;
+    height: 100px;
+    width: 400px;
+    float: left;
+    outline: 1px solid red;
+
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+
+}
